@@ -15,7 +15,7 @@ public class Periodico extends Escrito {
 	}
 
 	public int palabrasTotales(int palabrasPagina) {
-		return super.getPaginas()*10;
+		return super.getPaginas()*palabrasPagina*10;
 		
 	}
 	
