@@ -5,9 +5,9 @@ public class Fabula extends Escrito{
 	private String interpretacion;
 	
 	
-	public Fabula(String origen, String titulo, String autor, int paginas, String enseñanza, String interpretacion) {
+	public Fabula(String origen, String titulo, String autor, int paginas, String ensenanza, String interpretacion) {
 		super(origen, titulo, autor, paginas);
-		this.ensenanza = enseñanza;
+		this.ensenanza = ensenanza;
 		this.interpretacion = interpretacion;
 		
 	}
@@ -27,11 +27,11 @@ public class Fabula extends Escrito{
 	
 	
 
-	public String getEnseñanza() {
+	public String getEnsenanza() {
 		return ensenanza;
 	}
 
-	public void setEnseñanza(String enseñanza) {
+	public void setEnsenanza(String enseñanza) {
 		this.ensenanza = enseñanza;
 	}
 
